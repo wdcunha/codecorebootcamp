@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Car Lab</title>
+</head>
+
+<body>
+  <h1>How old is your car...</h1>
+
+  <form action="/car_age" method="POST">
+    <!-- <div>
+      <label for="carYear">Enter Your Car Year</label> <br/>
+      <input type="text" name="carYear" id="carYear" value="">
+    </div>
+    <div>
+      <input type="submit" name="" value="Submit">
+    </div> -->
+
+    <div>
+      <label for="carYear">Enter Your Car Year</label> <br/>
+      <select id="carYear" name="carYear">
+          <option value="1"> 2018 ... </option>
+          <option value="2"> 2010 - 2017 </option>
+          <option value="3"> 2000 - 2010 </option>
+          <option value="4"> ... 2000 </option>
+      </select>
+      </div>
+      <div>
+        <input type="submit" name="" value="Submit">
+      </div>
+
+    </form>
+  </body>
+</html>
+
+
+<!-- <select name="carYear">
+        <option value="2017"> 2017</option>
+        <% for (let i = 2016; i > 1950; i--) { %>
+          <option value="<%= i %>"><%= i %></option>
+        <% } %>
+      </select>
+      <input type="submit" value="Submit"> -->

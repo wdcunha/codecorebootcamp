@@ -1,0 +1,15 @@
+<%- include('./partials/header') %>
+
+    <div class="tasks-list">
+      <% for(let task of tasks){ %>
+        <div>
+          <img src="<%= task.picture_path %>" style="height:5vmin" />
+          <a href="/tasks/<%= task.id %>">
+          <h4> <%= task.title %> </h4>
+          <p> <strong> Created at: </strong> <%= task.created_at %> </p>
+          <hr />
+        </div>
+      <% } %>
+    </div>
+
+<%- include('./partials/footer') %>    

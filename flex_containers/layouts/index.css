@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+main {
+  height: 100%;
+}
+main div {
+  background-color: grey;
+  border-radius: 5px;
+}
+
+* {
+  box-sizing: border-box;
+  /*the box sizing properties controls what is included int he calculation of the size of an elements box By deafult, it is set to 'content-box'. This means that only the content of an element is included in the percentage calculations*/
+  /*when it is set to 'border-box', the padding, the border and content are all part of the calculation of the size of the box*/
+
+  /*div {
+    height: 40px;
+    border-width: 5px;
+    padding: 10px;
+    margin: 15px
+  }*/
+
+  /*if this div was using 'content-box', the true height would be*/
+  /* actual height = 40px + 5px *2 + 10px * 2 + 15px*2 = 50px*/
+  /*height of content = 40px*/
+
+  /*with border-box*/
+  /* actual height = 40px + 15px*2 = 70px*/
+  /*height of content = 50px - 5px*2 - 10px*2 = 20*/
+
+}

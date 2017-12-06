@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SIDEBARS</title>
+
+    <style>
+      #heading {
+        display: flex;
+        justify-content: center;
+      }
+
+      .content {
+        display: flex;
+        float: left;
+        flex-direction: column;
+        height: 80%;
+        width: 70%;
+      }
+
+      .sidebar {
+        float: right;
+        background-color: lightgrey;
+        width: 20%;
+        min-height: 100vh;
+        margin-right: 30px;
+        border-radius: 5px;
+      }
+
+      .content div {
+        height: 200px;
+        width: 100%;
+        background-color: lightgrey;
+        border-radius: 5px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+      }
+
+      .bottom-icons {
+        float: left;
+        display: flex;
+        height: -20%;
+        width: 50%;
+        margin-left: 30px;
+      }
+
+      .bottom-icons a {
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+        background-color: lightgrey;
+        margin-right: 30px;
+        margin-bottom: 30px;
+      }
+
+      img {
+        max-width: 200px;
+        height: auto;
+        float: left;
+        margin: 20px;
+      }
+      p {
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 id="heading"> BLOG </h3>
+    <section class="content">
+      <div><img src="img1.jpeg"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+      <div><img src="img2.jpeg"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+      <div><img src="img3.jpeg"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+    </section>
+
+    <div class="sidebar"></div>
+    <section class="bottom-icons">
+      <a></a>
+      <a></a>
+      <a></a>
+    </section>
+  </body>
+</html>

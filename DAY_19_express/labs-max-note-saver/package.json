@@ -1,0 +1,26 @@
+{
+  "name": "labs-max-note-saver",
+  "version": "0.0.1",
+  "description": "labs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "db:create": "createdb note_saver_dev",
+    "db:drop": "dropdb note_saver_dev"
+  },
+  "author": "Paul",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "els": "0.1.0-alpha",
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

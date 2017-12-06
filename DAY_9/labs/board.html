@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BOARD</title>
+    <style>
+      #board-container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        border-radius: 5px;
+        background-color: lightgrey;
+      }
+
+      .card {
+        border-radius: 5px;
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        margin-top: 3px;
+        margin-bottom: 5px;
+        box-shadow: grey;
+      }
+
+      #board-heading {
+        display: flex;
+        align-content: space-between;
+      }
+      #board-heading h3 {
+        margin: 10px;
+      }
+
+      #addCard {
+        color: grey;
+        padding: 10px;
+        margin-top: 0px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div id="board-container">
+      <div id="board-heading">
+        <h3>Queue</h3>
+        <a> </a>
+      </div>
+        <div class="card"> The Pragmatic Programmer </div>
+        <div class="card"> Clean Code </div>
+        <div class="card"> http://learnlayout.com/ </div>
+        <div class="card"> Exploring ES6 </div>
+        <div class="card"> Reach 2nd kyu in Code Wars </div>
+        <div class="card"> SQL Zoo </div>
+        <div class="card"> Learn PureScript </div>
+      <div id="addCard">
+        <h3> Add a card... <h3>
+      </div>
+    </div>
+  </body>
+</html>

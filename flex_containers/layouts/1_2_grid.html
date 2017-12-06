@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>1+2 Grid</title>
+
+    <style>
+    #heading {
+      display: flex;
+      justify-content: center;
+      height: 50px;
+      border: thin black solid;
+      width: 100%;
+      padding-top: 20px;
+    }
+
+    #bigbox {
+      width: 100%;
+      height: 300px;
+      border-radius: 5px;
+      background-color: lightgrey;
+    }
+
+    #smallbox1 {
+      float: left;
+      width: 40%;
+      height: 300px;
+      border-radius: 5px;
+      background-color: lightgrey;
+    }
+
+    #smallbox2 {
+      float: right;
+      width: 40%;
+      height: 300px;
+      border-radius: 5px;
+      background-color: lightgrey;
+      margin-top: 20px;
+    }
+
+    .set_margin {
+      margin-top: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+    }
+
+    /*#bigbox #smallbox1 #smallbox2 {
+      padding-top: 20px;
+    }*/
+    </style>
+  </head>
+  <body>
+    <div id="heading"> Features 2 </div>
+    <div id="bigbox" class="set_margin"></div>
+    <div id="smallbox1" class="set_margin"></div>
+    <div id="smallbox2" class="set_margin"></div>
+  </body>
+</html>
